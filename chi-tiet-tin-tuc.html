@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết tin tức</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/tin-tuc.css">
+    <link rel="stylesheet" href="./assets/css/chi-tiet-tin-tuc.css">
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/img/logo/logo-1.png" alt="">
+                </a>
+            </div>
+            <ul class="nav">
+                <li><a href="./nha-dat-ban.html">Nhà đất bán</a>
+                    <ul class="subnav">
+                        <li><a href="./nha-dat-ban.html">Bán căn hộ chung cư</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán nhà riêng</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán nhà mặt phố</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán nhà biệt thự, liền kề</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán đất nền dự án</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán trang trại, khu nghỉ dưỡng</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán đất</a></li>
+                        <li><a href="./nha-dat-ban.html">Bán kho, nhà xưởng</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="./nha-dat-cho-thue.html">Nhà đất cho thuê</a>
+                    <ul class="subnav">
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê căn hộ chung cư</a></li>
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê nhà riêng</a></li>
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê nhà mặt phố</a></li>
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê nhà biệt thự, liền kề</a></li>
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê shophouse</a></li>
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê nhà trọ, phòng trọ</a></li>
+                        <li><a href="./nha-dat-cho-thue.html">Cho thuê văn phòng</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="./du-an.html">Dự án</a>
+                    <ul class="subnav">
+                        <li><a href="./du-an.html">Căn hộ chung cư</a></li>
+                        <li><a href="./du-an.html">Cao ốc văn phòng</a></li>
+                        <li><a href="./du-an.html">Trung tâm thương mại</a></li>
+                        <li><a href="./du-an.html">Khu đô thị mới</a></li>
+                        <li><a href="./du-an.html">Khu phức hợp</a></li>
+                        <li><a href="./du-an.html">Nhà ở xã hội</a></li>
+                        <li><a href="./du-an.html">Khu nghỉ dưỡng, Sinh thái</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="./tin-tuc.html">Tin tức</a></li>
+            </ul>
+
+            <div class="log-in">
+                <ul class="nav-right">
+                    <li><a class="js-place-bt">Đăng nhập</a></li>
+                    <li><a class="js-place-bt-sign-up">Đăng ký</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="search">
+            <input class="search" type="search"> <input class="button-search" type="button" value="Tìm Kiếm">
+            <select id="provinceList">
+                <option value="0">Toàn Quốc</option>
+            </select>
+            <select name="" id="">
+                <option value="">Mức Giá</option>
+            </select>
+            <select name="" id="">
+                <option value="">Diện Tích</option>
+            </select>
+            <select name="" id="">
+                <option value="">Lọc Thêm</option>
+            </select>
+        </div>
+
+        <div id="content">
+            <div id="content-container">
+                <div class="content-title-chi-tiet font-weight700">Sắp Diễn Ra “Diễn Đàn Kinh tế Toàn Cầu” và “Lễ Công Bố Thương
+                    Hiệu Xuất Sắc Toàn Cầu 2023”</div>
+                <div class="col col-two-third">
+                    <div class="content-news">
+                        <p>Trung tâm Nghiên cứu Phát triển Doanh nghiệp Châu Á, Tạp chí Kinh tế Châu Á – Thái Bình Dương
+                            sẽ phối hợp với các tổ chức quốc tế uy tín trên toàn cầu cùng các chuyên gia kinh tế – tài
+                            chính – thương hiệu – Marketing danh tiếng, uy tín trên thị trường quốc tế để tổ chức Diễn
+                            đàn Kinh tế toàn cầu và Lễ công bố Thương hiệu xuất sắc toàn cầu 2023.</p>
+                        <p>Dự kiến chương trình sẽ diễn ra vào tháng 7/2023 tại Nhà hát Quân Đội, 130 Hồ Tùng Mậu,
+                            Phường Mai Dịch, Quận Cầu Giấy, Hà Nội, Việt Nam và được trực tiếp trên VTC6 – Đài truyền
+                            hình Kỹ thuật số VTC.</p>
+                        <img src="./assets/img/BDS/a5.jpg" alt="">
+                        <p>Diễn đàn Kinh tế toàn cầu và Lễ công bố Thương hiệu xuất sắc toàn cầu 2023 được tổ chức
+                            thường niên hàng năm và luân phiên tại các nước trên thế giới đánh giá, xét chọn dựa trên
+                            các tiêu chuẩn toàn cầu đối với doanh nghiệp có Chiến lược phát triển thương hiệu toàn cầu,
+                            văn hóa sáng tạo của thương hiệu toàn cầu, thương hiệu đầu ngành, có sản phẩm, dịch vụ chất
+                            lượng cao được sản xuất, kinh doanh và đang lưu hành trên toàn thế giới.</p>
+                        <p>Đây là sự kiện trọng điểm của năm 2023 quy tụ các 350 Doanh nghiệp, thương hiệu lớn trên toàn
+                            thế giới trong đó có Thương hiệu tại các nước như: Khối Doanh nghiệp EU, Hàn Quốc, Nhật Bản,
+                            Trung Quốc, Ả Rập Xê Út, Malaysia, Thái Lan, Singapore, Việt Nam đồng thời cũng là cơ hội
+                            lớn đến cộng đồng doanh nghiệp Việt Nam cùng giao lưu, hợp tác kết nối đầu tư đến cộng đồng
+                            doanh nghiệp trên toàn thế giới.</p>
+                        <img src="./assets/img/BDS/j2.jpg" alt="">
+                        <p>Theo Ban tổ chức, trong khuôn khổ chương trình còn diễn ra hoạt động truyền thông, quảng bá
+                            “Diễn đàn kinh tế toàn cầu” và “Lễ công bố Thương hiệu xuất sắc toàn cầu 2023”, cụ thể, vinh
+                            danh các hạng mục: TOP 5 / TOP 10 / TOP 20 / TOP 50 / TOP 100 Thương hiệu xuất sắc Toàn Cầu
+                            2023, TOP 20 Doanh nghiệp đổi mới sáng tạo Toàn Cầu 2023, Nhà lãnh đạo xuất sắc Toàn Cầu
+                            2023, Sản phẩm – Dịch vụ Chất lượng Toàn Cầu 2023, Nhãn xanh toàn cầu 2023.</p>
+                        <p>Tin tưởng và hy vọng rằng, diễn đàn sẽ là nơi phù hợp và thuận lợi để cộng đồng doanh nghiệp
+                            thảo luận về các giải pháp cụ thể tháo gỡ các khó khăn hiện hành cũng như trao đổi chi tiết
+                            về những cơ hội mở rộng hợp tác trong giai đoạn phát triển số mới, phù hợp với xu hướng phát
+                            triển bền vững toàn cầu, góp phần tích cực và sự phát triển bền vững và xanh của doanh
+                            nghiệp Việt Nam trong bối cảnh hiện nay.</p>
+                    </div>
+                    <div class="icon-share">
+                        <div class="fa-icon-share">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+
+                        <div class="fa-icon-share">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+
+                        <div class="fa-icon-share">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="title-other-posts">Bài viết khác</div>
+
+                    <a href="" class="project-hrel">
+                        <div class="project">
+                            <div class="col col-one-third">
+                                <img src="./assets/img/BDS/a3.jpg" alt="">
+                            </div>
+
+                            <div class="col col-two-third container-content-project">
+                                <div class="title-project font-weight700">Đất Nền Vùng Ven Hà Hội Trầm Lắng, Nhà Đầu Tư Tìm Hướng Mới</div>
+                                <div class="content-project">Đất nền vùng ven Hà Nội đang trải qua giai đoạn ảm đạm khi thanh khoản tại nhiều khu vực rất yếu. Nhiều nhà đầu tư không bán được đất, đã tìm hướng phát triển mới với chính mảnh đất của mình.</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </a>
+
+                    <a href="" class="project-hrel">
+                        <div class="project">
+                            <div class="col col-one-third">
+                                <img src="./assets/img/BDS/e1.jpg" alt="">
+                            </div>
+
+                            <div class="col col-two-third container-content-project">
+                                <div class="title-project font-weight700">Đất Nền Vùng Ven Hà Hội Trầm Lắng, Nhà Đầu Tư Tìm Hướng Mới</div>
+                                <div class="content-project">Đất nền vùng ven Hà Nội đang trải qua giai đoạn ảm đạm khi thanh khoản tại nhiều khu vực rất yếu. Nhiều nhà đầu tư không bán được đất, đã tìm hướng phát triển mới với chính mảnh đất của mình.</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </a>
+
+                    <a href="" class="project-hrel">
+                        <div class="project">
+                            <div class="col col-one-third">
+                                <img src="./assets/img/BDS/f4.jpg" alt="">
+                            </div>
+
+                            <div class="col col-two-third container-content-project">
+                                <div class="title-project font-weight700">Đất Nền Vùng Ven Hà Hội Trầm Lắng, Nhà Đầu Tư Tìm Hướng Mới</div>
+                                <div class="content-project">Đất nền vùng ven Hà Nội đang trải qua giai đoạn ảm đạm khi thanh khoản tại nhiều khu vực rất yếu. Nhiều nhà đầu tư không bán được đất, đã tìm hướng phát triển mới với chính mảnh đất của mình.</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col col-one-third">
+                    <div class="news-hot news-hot-chi-tiet">
+                        <div class="font-weight700">Bài viết được xem nhiều nhất</div>
+                        <div><a href="">Giá Và Giao Dịch Đất Nền Giảm Sâu, Vì Sao Người Mua Chưa "Chốt Sổ"?</a></div>
+                        <div><a href="">Lãi Suất Vay Ngân Hàng Tháng 5/2023 Chỉ Từ 4,99%/Năm</a></div>
+                        <div><a href="">Hướng Đi Nào Cho Môi Giới Bất Động Sản Trong Bối Cảnh Khó Khăn?</a></div>
+                        <div><a href="">Giá Đất Nền Đồng Nai, Phan Thiết Tăng Theo Tin Thông Xe Cao Tốc Dầu Giây – Phan Thiết</a></div>
+                        <div><a href="">Nhà Phố, Đất Nền Mất Giá Vì Bỏ Hoang</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <!-- Footer -->
+
+        <div id="footer">
+            <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<img src="./assets/img/logo/logo-1.png" alt="">
+
+				
+
+				<p class="footer-company-name">Copyright &copy; 2023</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>140 Lê Trọng Tấn</span> Tân Phú, TP.HCM</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+84123456789</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@baotrungbds.com">support@baotrungbds.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Học phần</span>
+					Thiết kế Web
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa-brands fa-square-facebook"></i></i></a>
+					<a href="#"><i class="fa-brands fa-square-twitter"></i></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+					<a href="#"><i class="fa-brands fa-square-github"></i></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+        </div>
+    </div>
+    <!-- End Footer -->
+    </div>
+
+    <div class="modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header">
+                <div class="font-weight700">
+                    Welcome back
+                </div>
+                <div>
+                    Welcome back! Please enter your details 
+                </div>
+            </header>
+
+            <div class="modal-content">
+                <label for="modal-input-email" class="modal-lb">
+                    <i class="fa-solid fa-user"></i>
+                    Email
+                </label>
+                <input id="modal-input-email" type="email" class="modal-input border-radius10" placeholder="Enter email">
+                
+                <label for="modal-input-quantity" class="modal-lb">
+                    <i class="fa-solid fa-key"></i>
+                    Password
+                </label>
+                <input id="modal-input-quantity" type="password" class="modal-input border-radius10" placeholder="Password">
+
+                <div class="modal-synthetic">
+                    <div class="col col-two">
+                        <input type="checkbox" name="" id="modal-checkbox">Remember account
+                    </div>
+        
+                    <div class="col col-two">
+                        <div class="" style="float: right;">
+                            <a class="modal-f-password js-place-bt-f-got modal-close-all">Forgot your password?</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                    <bt class="modal-bt border-radius10 font-weight700">Sign in</bt>
+
+                    <div class="line-with-text">
+                        <div class="line"></div>
+                        <span class="text">Or</span>
+                        <div class="line"></div>
+                      </div>
+
+                    <div class="modal-login-or">
+                        <div class="col col-two"><bt class="modal-bt-login"><i class="fa-brands fa-square-facebook"></i>Facebook</bt></div>
+                        <div class="col col-two"><bt class="modal-bt-login"><i class="fa-brands fa-google"></i>Google</bt></div>
+                        <div class="clear"></div>
+                    </div>
+                    
+            </div>
+
+            <footer class="modal-footer">
+                <div class="modal-footer-text">
+                    Not signed up? <a class="js-place-bt-sign-up modal-close-all2">Create an account</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <div class="modal-sign-up">
+        <div class="modal-container js-modal-container-sign-up">
+            <div class="modal-close js-modal-close-sign-up">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header">
+                <div class="font-weight700">
+                    Welcome back
+                </div>
+                <div>
+                    Register a new account
+                </div>
+            </header>
+
+            <div class="modal-content">
+                <label for="modal-input-email" class="modal-lb">
+                    <i class="fa-solid fa-user"></i>
+                    Phone Number
+                </label>
+                <input id="modal-input-email" type="tel" class="modal-input border-radius10" placeholder="Enter phone">
+                    <bt class="modal-bt border-radius10 font-weight700">Create account</bt>
+
+                    <div class="line-with-text">
+                        <div class="line"></div>
+                        <span class="text">Or</span>
+                        <div class="line"></div>
+                      </div>
+
+                    <div class="modal-login-or">
+                        <div class="col col-two"><bt class="modal-bt-login"><i class="fa-brands fa-square-facebook"></i>Facebook</bt></div>
+                        <div class="col col-two"><bt class="modal-bt-login"><i class="fa-brands fa-google"></i>Google</bt></div>
+                        <div class="clear"></div>
+                    </div>
+                    
+            </div>
+
+            <footer class="modal-footer">
+                <div class="modal-footer-text">
+                    Already have an account <a class="js-place-bt modal-sign-up-close">Log in</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="modal-f-got">
+        <div class="modal-container js-modal-container-f-got">
+            <div class="modal-close js-modal-close-f-got">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header">
+                <div class="font-weight700" style="font-style: 30px !important;">
+                    Forgot your password?
+                </div>
+                <div style="font-size: 20px;">
+                    Enter your email or phone number and we’ll send you a code you can use to update your password
+                </div>
+            </header>
+
+            <div class="modal-content">
+                <label for="modal-input-email" class="modal-lb">
+                    <i class="fa-solid fa-user"></i>
+                    Email Or Phone Number
+                </label>
+                <input id="modal-input-email" type="text" class="modal-input border-radius10" placeholder="Enter email address or phone number">
+                    <bt class="modal-bt border-radius10 font-weight700">Create account</bt>                    
+            </div>
+
+            <footer class="modal-footer">
+                <div class="modal-footer-text">
+                    Already have an account <a class="js-place-bt modal-f-got-close">Log in</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- END -->
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.content-title-chi-tiet{
+    font-size: 50px;
+    padding-bottom: 30px;
+
+}
+
+
+.content-news p{
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.content-news img{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.icon-share .fa-icon-share{
+    float: left;
+    font-size: 20px;
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid #083272;
+    cursor: pointer;
+}
+
+
+.icon-share div:hover{
+    color: #fff;
+    background-color: #083272;
+}
+
+.title-other-posts{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.news-hot-chi-tiet{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+/* modal */
+

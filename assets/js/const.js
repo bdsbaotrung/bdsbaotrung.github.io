@@ -1,0 +1,1 @@
+const URL1 = 'https://646718aaba7110b663af40e8.mockapi.io/bds'
